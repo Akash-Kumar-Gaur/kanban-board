@@ -1,0 +1,31 @@
+.selectBox {
+  border-radius: 4px;
+  border: 1px solid rgb(219, 219, 219);
+  background: rgba(251, 251, 251, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 5px;
+  min-width: 90px;
+  position: relative;
+  color: #474747;
+
+  .options {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 5px);
+    z-index: 2;
+    border-radius: 4px;
+    border: 1px solid rgb(219, 219, 219);
+    background: rgba(251, 251, 251);
+    width: 100%;
+    box-sizing: border-box;
+    .option {
+      padding: 5px;
+      box-sizing: border-box;
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+}

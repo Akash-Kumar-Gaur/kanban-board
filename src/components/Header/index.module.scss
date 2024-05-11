@@ -1,0 +1,45 @@
+.header {
+  background: #fff;
+  padding: 5px 20px;
+  .dropdown {
+    display: inline-flex;
+    align-items: center;
+    align-self: auto;
+    border-radius: 6px;
+    border: 1px solid rgb(219 219 219);
+    background: rgb(251 251 251 / 80%);
+    padding: 5px 5px 5px 10px;
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    user-select: none;
+    > img {
+      object-fit: contain;
+      margin-right: 8px;
+    }
+    .arrowDown {
+      margin-left: 4px;
+    }
+    .content {
+      position: absolute;
+      top: calc(100% + 5px);
+      transition: all 0.5s ease;
+      border-radius: 6px;
+      border: 1px solid rgb(219, 219, 219);
+      background: rgba(251, 251, 251);
+      padding: 5px;
+      left: 0;
+      font-size: 13px;
+      color: #9f9f9f;
+      font-weight: 600;
+      .row {
+        padding: 8px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 210px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

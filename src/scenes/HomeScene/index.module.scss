@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.homeScene {
+  background-color: #ececec;
+  height: 100%;
+  min-height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  .board {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    box-sizing: border-box;
+    > div {
+      flex: 1;
+    }
+  }
+}
